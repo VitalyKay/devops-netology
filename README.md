@@ -1,33 +1,33 @@
-# devops-netology
+п»ї# devops-netology
 devops-netology
 Vitaly Kaydalov
 
-#Задание 1
+#Р—Р°РґР°РЅРёРµ 1
 
 **/.terraform/*
-Во все директориях в поддиректории .terraform игнорируются все файлы и папки
+Р’Рѕ РІСЃРµ РґРёСЂРµРєС‚РѕСЂРёСЏС… РІ РїРѕРґРґРёСЂРµРєС‚РѕСЂРёРё .terraform РёРіРЅРѕСЂРёСЂСѓСЋС‚СЃСЏ РІСЃРµ С„Р°Р№Р»С‹ Рё РїР°РїРєРё
 
 *.tfstate
 *.tfstate.*
-Игнорируются все файлы с расширением tfstate и в имени которых есть .tfstate.
+РРіРЅРѕСЂРёСЂСѓСЋС‚СЃСЏ РІСЃРµ С„Р°Р№Р»С‹ СЃ СЂР°СЃС€РёСЂРµРЅРёРµРј tfstate Рё РІ РёРјРµРЅРё РєРѕС‚РѕСЂС‹С… РµСЃС‚СЊ .tfstate.
 
 crash.log
-Игнорируется файл crash.log
+РРіРЅРѕСЂРёСЂСѓРµС‚СЃСЏ С„Р°Р№Р» crash.log
 
 *.tfvars
-Игнорируются все файлы с расширением tfvars
+РРіРЅРѕСЂРёСЂСѓСЋС‚СЃСЏ РІСЃРµ С„Р°Р№Р»С‹ СЃ СЂР°СЃС€РёСЂРµРЅРёРµРј tfvars
 
 override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
-Игнорируются файлы override.tf и override.tf.json, файлы заканчивающиеся на *_override.tf и *_override.tf.json  
+РРіРЅРѕСЂРёСЂСѓСЋС‚СЃСЏ С„Р°Р№Р»С‹ override.tf Рё override.tf.json, С„Р°Р№Р»С‹ Р·Р°РєР°РЅС‡РёРІР°СЋС‰РёРµСЃСЏ РЅР° *_override.tf Рё *_override.tf.json  
 
-Игнорируются эти 2 файла
+РРіРЅРѕСЂРёСЂСѓСЋС‚СЃСЏ СЌС‚Рё 2 С„Р°Р№Р»Р°
 .terraformrc
 terraform.rc
 
-#Задание 2
+#Р—Р°РґР°РЅРёРµ 2
 
 $ git --help
 usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
@@ -89,7 +89,7 @@ git add [--verbose | -v] [--dry-run | -n] [--force | -f] [--interactive | -i] [-
           [--edit | -e] [--[no-]all | --[no-]ignore-removal | [--update | -u]]
           [--intent-to-add | -N] [--refresh] [--ignore-errors] [--ignore-missing] [--renormalize]
           [--chmod=(+|-)x] [--pathspec-from-file=<file> [--pathspec-file-nul]]
-          [--] [<pathspec>…?]
+          [--] [<pathspec>вЂ¦?]
 DESCRIPTION
 This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit. It typically adds the current content of existing paths as a whole, but with some options it can also be used to add content with only part of the changes made to the working tree files applied, or remove paths that do not exist in the working tree anymore.
 
@@ -104,14 +104,14 @@ The git add command will not add ignored files by default. If any ignored files 
 Please see git-commit(1) for alternative ways to add content to a commit.
 
 OPTIONS
-<pathspec>…?
+<pathspec>вЂ¦?
 Files to add content from. Fileglobs (e.g. *.c) can be given to add all matching files. Also a leading directory name (e.g. dir to add dir/file1 and dir/file2) can be given to update the index to match the current state of the directory as a whole (e.g. specifying dir will record not just a file dir/file1 modified in the working tree, a file dir/file2 added to the working tree, but also a file dir/file3 removed from the working tree). Note that older versions of Git used to ignore removed files; use --no-all option if you want to add modified or new files but ignore removed ones.
 
 For more details about the <pathspec> syntax, see the pathspec entry in gitglossary(7).
 
 -n
 --dry-run
-Don’t actually add the file(s), just show if they exist and/or will be ignored.
+DonвЂ™t actually add the file(s), just show if they exist and/or will be ignored.
 
 -v
 --verbose
@@ -123,13 +123,13 @@ Allow adding otherwise ignored files.
 
 -i
 --interactive
-Add modified contents in the working tree interactively to the index. Optional path arguments may be supplied to limit operation to a subset of the working tree. See “Interactive mode” for details.
+Add modified contents in the working tree interactively to the index. Optional path arguments may be supplied to limit operation to a subset of the working tree. See вЂњInteractive modeвЂќ for details.
 
 -p
 --patch
 Interactively choose hunks of patch between the index and the work tree and add them to the index. This gives the user a chance to review the difference before adding modified contents to the index.
 
-This effectively runs add --interactive, but bypasses the initial command menu and directly jumps to the patch subcommand. See “Interactive mode” for details.
+This effectively runs add --interactive, but bypasses the initial command menu and directly jumps to the patch subcommand. See вЂњInteractive modeвЂќ for details.
 
 -e
 --edit
@@ -154,14 +154,14 @@ If no <pathspec> is given when -A option is used, all files in the entire workin
 --ignore-removal
 Update the index by adding new files that are unknown to the index and files modified in the working tree, but ignore files that have been removed from the working tree. This option is a no-op when no <pathspec> is used.
 
-This option is primarily to help users who are used to older versions of Git, whose "git add <pathspec>…?" was a synonym for "git add --no-all <pathspec>…?", i.e. ignored removed files.
+This option is primarily to help users who are used to older versions of Git, whose "git add <pathspec>вЂ¦?" was a synonym for "git add --no-all <pathspec>вЂ¦?", i.e. ignored removed files.
 
 -N
 --intent-to-add
 Record only the fact that the path will be added later. An entry for the path is placed in the index with no content. This is useful for, among other things, showing the unstaged content of such files with git diff and committing them with git commit -a.
 
 --refresh
-Don’t add the file(s), but only refresh their stat() information in the index.
+DonвЂ™t add the file(s), but only refresh their stat() information in the index.
 
 --ignore-errors
 If some files could not be added because of errors indexing them, do not abort the operation, but continue adding the others. The command shall still exit with non-zero status. The configuration variable add.ignoreErrors can be set to true to make this the default behaviour.
