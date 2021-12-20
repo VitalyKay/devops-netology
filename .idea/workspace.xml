@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="72f03ca1-2a9f-48d0-89ad-cc98df21ae89" name="Changes" comment="Add 4.2.Python (4 tasks)">
       <change afterPath="$PROJECT_DIR$/4.2.Python/5.py" afterDir="false" />
+=======
+    <list default="true" id="72f03ca1-2a9f-48d0-89ad-cc98df21ae89" name="Changes" comment="Add 123 to README.md">
+      <change afterPath="$PROJECT_DIR$/4.3.JSONYAML/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.3.JSONYAML/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.3.JSONYAML/README.md" afterDir="false" />
+>>>>>>> dev
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.2.Python/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/4.2.Python/README.md" afterDir="false" />
     </list>
@@ -209,6 +216,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
