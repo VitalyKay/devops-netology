@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72f03ca1-2a9f-48d0-89ad-cc98df21ae89" name="Changes" comment="Add 123 to README.md">
-      <change afterPath="$PROJECT_DIR$/.idea/devops-netology.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.2.Python/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.2.Python/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.2.Python/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.2.Python/4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.2.Python/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.3.JSONYAML/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.3.JSONYAML/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.3.JSONYAML/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -204,6 +197,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
