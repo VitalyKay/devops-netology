@@ -1,0 +1,6 @@
+[nodes:children]
+manager
+
+[manager]
+node01.netology.cloud ansible_host=84.252.130.66
+node02.netology.cloud ansible_host=62.84.125.183
