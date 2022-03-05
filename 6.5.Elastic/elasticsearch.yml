@@ -1,0 +1,20 @@
+# ------------------------------------ Node ------------------------------------
+node.name: netology_test	        # Имя ноды
+node.roles: [ master, data ]  # Роли узла
+
+# ---------------------------------- Network -----------------------------------
+network.host: 0.0.0.0	# Адрес узла
+http.port: 9200					# Порт
+transport.port: 9300
+
+# ---------------------------------- Cluster -----------------------------------
+cluster.name: es_cluster                                             # Имя кластера
+cluster.initial_master_nodes: ["netology_test"]  # Начальный набор мастер узлов
+
+# ----------------------------------- Paths ------------------------------------
+path.data: /var/lib/elasticsearch # Директория с данными
+path.logs: /var/log/elasticsearch # Директория с логами
+path.repo: /usr/share/elasticsearch/snapshots # Директория со снепшотами
+
+xpack.security.enabled: false
+xpack.security.transport.ssl.enabled: false
