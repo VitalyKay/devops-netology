@@ -58,7 +58,7 @@ CMD [ "./elasticsearch" ]
 
 - ответ `elasticsearch` на запрос пути `/` в json виде
 
-```json
+```commandline
 root@vagrant:~/elastic# curl -X GET http://127.0.0.1:9200/
 {
   "name" : "netology_test",
@@ -124,7 +124,7 @@ yellow open   ind-2 JiEEm3kRScO4BMiqw28-BA   2   1          0            0      
 
 Получите состояние кластера `elasticsearch`, используя API.
 
-```json
+```commandline
 root@vagrant:~/elastic# curl -X GET "http://127.0.0.1:9200/_cluster/state/nodes/_all" | jq
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
