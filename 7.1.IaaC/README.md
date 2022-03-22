@@ -55,6 +55,18 @@
 
 Установите терраформ при помощи менеджера пакетов используемого в вашей операционной системе.
 В виде результата этой задачи приложите вывод команды `terraform --version`.
+> Установка с помощью менеджера пакетов в данный момент не возможна. Пытался выполнить по инструкции 
+> [https://learn.hashicorp.com/tutorials/terraform/install-cli](https://learn.hashicorp.com/tutorials/terraform/install-cli) - 
+> ошибка 405.  
+> Установка производилась скачиванием бинарника с зеркала облака [Yandex](https://hashicorp-releases.website.yandexcloud.net/terraform/)
+> и прописыванием пути до бинарника в переменную PATH
+```commandline
+vagrant@vagrant:~$ terraform --version
+
+Your version of Terraform is out of date! The latest version
+is 1.1.7. You can update by downloading from https://www.terraform.io/downloads.html
+Terraform v0.13.0
+```
 
 ## Задача 3. Поддержка легаси кода. 
 
@@ -65,6 +77,20 @@
 
 В виде результата этой задачи приложите вывод `--version` двух версий терраформа доступных на вашем компьютере 
 или виртуальной машине.
+
+> Установка старой версии Terraform осуществлялась как в предыдущем задании
+```commandline
+vagrant@vagrant:~$ terraform --version
+
+Your version of Terraform is out of date! The latest version
+is 1.1.7. You can update by downloading from https://www.terraform.io/downloads.html
+Terraform v0.13.0
+vagrant@vagrant:~$ terraform12 --version
+Terraform v0.12.0
+
+Your version of Terraform is out of date! The latest version
+is 1.1.7. You can update by downloading from www.terraform.io/downloads.html
+```
 
 ---
 
